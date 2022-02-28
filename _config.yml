@@ -22,8 +22,6 @@ logo: "/images/hatted_bunny.png"
 date_format: "%Y-%m-%d"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
-disqus:
-  shortname: dudu # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: SarahQin11# site's Twitter username, e.g. "mmistakes"
 
@@ -81,18 +79,19 @@ defaults:
       sitemap: true
 
 # Site Author
-name: 小秦秦
-picture: /images/strong_bunny.jpg
-links:
-  - title: Instagram
-    url: https://instagram.com/sarah_qinnn
-    icon: fab fa-instagram
-  - title: GitHub
-    url: https://github.com/sarahqinsarah
-    icon: fab fa-github-square
-  - title: Weibo
-    url: https://weibo.com/u/7393304133
-    icon: fab fa-weibo
+author:
+  name: 小秦秦
+  picture: /images/strong_bunny.jpg
+  links:
+    - title: Instagram
+      url: https://instagram.com/sarah_qinnn
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/sarahqinsarah
+      icon: fab fa-github-square
+    - title: Weibo
+      url: https://weibo.com/u/7393304133
+      icon: fab fa-weibo
 
 
 # robots.txt setting
